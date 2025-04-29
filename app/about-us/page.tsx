@@ -162,173 +162,173 @@ export default function AboutUs() {
 							</div>
 						</div>
 					</section>
-					{/* team 1 */}
-					<section className="section-team-1 py-96 background-body border-top border-bottom">
-						<div className="container">
-							<div className="row align-items-center justify-content-center">
-								<div className="col-xl-6 col-lg-7 col-md-9 col-sm-11">
-									<div className="text-center mb-5">
-										<span className="text-xl-medium neutral-500">Awesome Teams</span>
-										<h3 className="section-title neutral-1000">Meet Our Agents</h3>
-									</div>
-								</div>
-							</div>
-							<div className="row mt-50">
-								<div className="col-lg-3 col-md-6 col-12">
-									<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
-										<div className="card-image">
-											<Link href="/dealer-details">
-												<img src="/assets/imgs/team/team-1/portrait-1.png" alt="Carento" />
-											</Link>
-										</div>
-										<div className="card-info p-4">
-											<div className="card-title">
-												<Link className="text-xl-bold neutral-1000" href="/dealer-details">
-													<h6>Cody Fisher</h6>
-												</Link>
-												<span className="text-sm-medium neutral-500">CFO (Chief Financial Officer)</span>
-											</div>
-											<div className="card-program">
-												<div className="endtime">
-													<div className="card-author d-flex align-items-center gap-2">
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
-														</Link>
-													</div>
-													<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-														<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
-													</Link>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-12">
-									<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
-										<div className="card-image">
-											<Link href="/dealer-details">
-												<img src="/assets/imgs/team/team-1/portrait-2.png" alt="Carento" />
-											</Link>
-										</div>
-										<div className="card-info p-4">
-											<div className="card-title">
-												<Link className="text-xl-bold neutral-1000" href="/dealer-details">
-													<h6>Darrell Steward</h6>
-												</Link>
-												<span className="text-sm-medium neutral-500">CEO (Chief Financial Officer)</span>
-											</div>
-											<div className="card-program">
-												<div className="endtime">
-													<div className="card-author d-flex align-items-center gap-2">
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
-														</Link>
-													</div>
-													<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-														<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
-													</Link>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-12">
-									<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
-										<div className="card-image">
-											<Link href="/dealer-details">
-												<img src="/assets/imgs/team/team-1/portrait-3.png" alt="Carento" />
-											</Link>
-										</div>
-										<div className="card-info p-4">
-											<div className="card-title">
-												<Link className="text-xl-bold neutral-1000" href="/dealer-details">
-													<h6>Ronald Richards</h6>
-												</Link>
-												<span className="text-sm-medium neutral-500">COO (Chief Financial Officer)</span>
-											</div>
-											<div className="card-program">
-												<div className="endtime">
-													<div className="card-author d-flex align-items-center gap-2">
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
-														</Link>
-													</div>
-													<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-														<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
-													</Link>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-12">
-									<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
-										<div className="card-image">
-											<Link href="/dealer-details">
-												<img src="/assets/imgs/team/team-1/portrait-4.png" alt="Carento" />
-											</Link>
-										</div>
-										<div className="card-info p-4">
-											<div className="card-title">
-												<Link className="text-xl-bold neutral-1000" href="/dealer-details">
-													<h6>Jerome Bell</h6>
-												</Link>
-												<span className="text-sm-medium neutral-500">CMO (Chief Financial Officer)</span>
-											</div>
-											<div className="card-program">
-												<div className="endtime">
-													<div className="card-author d-flex align-items-center gap-2">
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
-														</Link>
-														<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-															<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
-														</Link>
-													</div>
-													<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-														<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
-													</Link>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
+					{/* team 1
+					// <section className="section-team-1 py-96 background-body border-top border-bottom">
+					// 	<div className="container">
+					// 		<div className="row align-items-center justify-content-center">
+					// 			<div className="col-xl-6 col-lg-7 col-md-9 col-sm-11">
+					// 				<div className="text-center mb-5">
+					// 					<span className="text-xl-medium neutral-500">Awesome Teams</span>
+					// 					<h3 className="section-title neutral-1000">Meet Our Agents</h3>
+					// 				</div>
+					// 			</div>
+					// 		</div>
+					// 		<div className="row mt-50">
+					// 			<div className="col-lg-3 col-md-6 col-12">
+					// 				<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
+					// 					<div className="card-image">
+					// 						<Link href="/dealer-details">
+					// 							<img src="/assets/imgs/team/team-1/portrait-1.png" alt="Carento" />
+					// 						</Link>
+					// 					</div>
+					// 					<div className="card-info p-4">
+					// 						<div className="card-title">
+					// 							<Link className="text-xl-bold neutral-1000" href="/dealer-details">
+					// 								<h6>Cody Fisher</h6>
+					// 							</Link>
+					// 							<span className="text-sm-medium neutral-500">CFO (Chief Financial Officer)</span>
+					// 						</div>
+					// 						<div className="card-program">
+					// 							<div className="endtime">
+					// 								<div className="card-author d-flex align-items-center gap-2">
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+					// 									</Link>
+					// 								</div>
+					// 								<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
+					// 									<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+					// 								</Link>
+					// 							</div>
+					// 						</div>
+					// 					</div>
+					// 				</div>
+					// 			</div>
+					// 			<div className="col-lg-3 col-md-6 col-12">
+					// 				<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
+					// 					<div className="card-image">
+					// 						<Link href="/dealer-details">
+					// 							<img src="/assets/imgs/team/team-1/portrait-2.png" alt="Carento" />
+					// 						</Link>
+					// 					</div>
+					// 					<div className="card-info p-4">
+					// 						<div className="card-title">
+					// 							<Link className="text-xl-bold neutral-1000" href="/dealer-details">
+					// 								<h6>Darrell Steward</h6>
+					// 							</Link>
+					// 							<span className="text-sm-medium neutral-500">CEO (Chief Financial Officer)</span>
+					// 						</div>
+					// 						<div className="card-program">
+					// 							<div className="endtime">
+					// 								<div className="card-author d-flex align-items-center gap-2">
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+					// 									</Link>
+					// 								</div>
+					// 								<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
+					// 									<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+					// 								</Link>
+					// 							</div>
+					// 						</div>
+					// 					</div>
+					// 				</div>
+					// 			</div>
+					// 			<div className="col-lg-3 col-md-6 col-12">
+					// 				<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
+					// 					<div className="card-image">
+					// 						<Link href="/dealer-details">
+					// 							<img src="/assets/imgs/team/team-1/portrait-3.png" alt="Carento" />
+					// 						</Link>
+					// 					</div>
+					// 					<div className="card-info p-4">
+					// 						<div className="card-title">
+					// 							<Link className="text-xl-bold neutral-1000" href="/dealer-details">
+					// 								<h6>Ronald Richards</h6>
+					// 							</Link>
+					// 							<span className="text-sm-medium neutral-500">COO (Chief Financial Officer)</span>
+					// 						</div>
+					// 						<div className="card-program">
+					// 							<div className="endtime">
+					// 								<div className="card-author d-flex align-items-center gap-2">
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+					// 									</Link>
+					// 								</div>
+					// 								<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
+					// 									<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+					// 								</Link>
+					// 							</div>
+					// 						</div>
+					// 					</div>
+					// 				</div>
+					// 			</div>
+					// 			<div className="col-lg-3 col-md-6 col-12">
+					// 				<div className="card-news background-card hover-up shadow-2 mb-4 mb-lg-0">
+					// 					<div className="card-image">
+					// 						<Link href="/dealer-details">
+					// 							<img src="/assets/imgs/team/team-1/portrait-4.png" alt="Carento" />
+					// 						</Link>
+					// 					</div>
+					// 					<div className="card-info p-4">
+					// 						<div className="card-title">
+					// 							<Link className="text-xl-bold neutral-1000" href="/dealer-details">
+					// 								<h6>Jerome Bell</h6>
+					// 							</Link>
+					// 							<span className="text-sm-medium neutral-500">CMO (Chief Financial Officer)</span>
+					// 						</div>
+					// 						<div className="card-program">
+					// 							<div className="endtime">
+					// 								<div className="card-author d-flex align-items-center gap-2">
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+					// 									</Link>
+					// 									<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
+					// 										<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+					// 									</Link>
+					// 								</div>
+					// 								<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
+					// 									<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+					// 								</Link>
+					// 							</div>
+					// 						</div>
+					// 					</div>
+					// 				</div>
+					// 			</div>
+					// 		</div>
+					// 	</div>
+					// </section> */}
 					{/* cta 8*/}
 					<section className="section-cta-7 background-body py-96">
 						<div className="box-cta-6">
@@ -380,7 +380,7 @@ export default function AboutUs() {
 						</div>
 					</section>
 					{/* Static 1 */}
-					<section className="section-static-1 background-body background-2 pt-80 pb-80">
+					{/* <section className="section-static-1 background-body background-2 pt-80 pb-80">
 						<div className="container">
 							<div className="row">
 								<div>
@@ -441,9 +441,9 @@ export default function AboutUs() {
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 					{/* cta 9*/}
-					<section className="section-cta-7 background-body py-96">
+					{/* <section className="section-cta-7 background-body py-96">
 						<div className="box-cta-6">
 							<div className="container">
 								<div className="row align-items-center">
@@ -478,7 +478,7 @@ export default function AboutUs() {
 							</div>
 							<div className="bg-overlay position-absolute bottom-0 end-0 h-75 background-brand-2 opacity-25 z-0 rounded-start-pill" />
 						</div>
-					</section>
+					</section> */}
 					{/* testimonials */}
 					<section className="section-box py-96 background-body">
 						<div className="container">
@@ -580,7 +580,7 @@ export default function AboutUs() {
 						</div>
 					</section>
 					{/* faqs 1 */}
-					<section className="section-box box-faqs background-body pt-0">
+					{/* <section className="section-box box-faqs background-body pt-0">
 						<div className="box-faqs-inner">
 							<div className="container">
 								<div className="text-center">
@@ -666,9 +666,9 @@ export default function AboutUs() {
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 					{/* blog-1 */}
-					<section className="section-box box-news background-body">
+					{/* <section className="section-box box-news background-body">
 						<div className="container">
 							<div className="row align-items-end">
 								<div className="col-md-9 mb-30 wow fadeInUp">
@@ -791,7 +791,7 @@ export default function AboutUs() {
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 					<ModalVideo channel='youtube' isOpen={isOpen} videoId="JXMWOmuR1hU" onClose={() => setOpen(false)} />
 				</div>
 

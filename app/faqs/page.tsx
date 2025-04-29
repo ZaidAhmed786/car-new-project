@@ -677,7 +677,7 @@ export default function Faqs() {
 						</div>
 					</section>
 					{/* Static 1 */}
-					<section className="section-static-1 background-body background-2 pt-80 pb-80">
+					{/* <section className="section-static-1 background-body background-2 pt-80 pb-80">
 						<div className="container">
 							<div className="row">
 								<div>
@@ -738,7 +738,7 @@ export default function Faqs() {
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 				</div>
 
 			</Layout>

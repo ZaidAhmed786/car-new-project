@@ -36,7 +36,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 							</Link>
 						</div>
 						<div className="top-right-header">
-							<Dropdown className="d-none d-xl-inline-block box-dropdown-cart align-middle mr-15 head-lang">
+							{/* <Dropdown className="d-none d-xl-inline-block box-dropdown-cart align-middle mr-15 head-lang">
 								<Dropdown.Toggle as="span" className="text-14-medium icon-list icon-account icon-lang">
 									<span className="text-14-medium arrow-down">EN</span>
 								</Dropdown.Toggle>
@@ -59,7 +59,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 										<li><Link className="text-sm-medium" href="#">SGP</Link></li>
 									</ul>
 								</Dropdown.Menu>
-							</Dropdown>
+							</Dropdown> */}
 							<div className="top-button-mode">
 								<ThemeSwitch />
 							</div>
@@ -78,17 +78,18 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 							<div className="header-nav">
 								<nav className="nav-main-menu">
 									<ul className="main-menu">
-										<li className="has-children">
-											<Link href="#">Home</Link>
-											<ul className="sub-menu">
+										<li className="">
+											<Link href="/">Home</Link>
+											{/* <ul className="sub-menu">
 												<li><Link href="/">Home page v1</Link></li>
 												<li><Link href="/index-2">Home page v2</Link></li>
 												<li><Link href="/index-3">Home page v3</Link></li>
-											</ul>
+											</ul> */}
 										</li>
-										<li className="mega-li-small has-children">
-											<Link href="#">Vehicles</Link>
-											<div className="mega-menu">
+										<li className="mega-li-small ">
+										<li><Link href="/about-us">About Us</Link></li>
+
+											{/* <div className="mega-menu">
 												<div className="mega-menu-inner mega-menu-inner-small">
 													<div className="row">
 														<div className="col-lg-6">
@@ -111,55 +112,54 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 														</div>
 													</div>
 												</div>
-											</div>
+											</div> */}
 										</li>
-										<li className="mega-li-small has-children">
-											<Link href="#">Dealers</Link>
-											<div className="mega-menu">
+										<li className="mega-li-small ">
+										<li><Link href="/services">Our Services</Link></li>
+
+											{/* <div className="mega-menu">
 												<div className="mega-menu-inner mega-menu-inner-small mega-menu-inner-destinations">
 													<ul className="sub-menu">
 														<li><Link href="/dealer-listing">Dealers Listing</Link></li>
 														<li><Link href="/dealer-details">Dealer Details</Link></li>
 													</ul>
 												</div>
-											</div>
+											</div> */}
 										</li>
-										<li className="has-children">
+										{/* <li className="">
 											<Link href="#">Shop</Link>
 											<ul className="sub-menu">
 												<li><Link href="/shop-list">Shop Grid</Link></li>
 												<li><Link href="/shop-details">Product Details</Link></li>
 											</ul>
-										</li>
+										</li> */}
 										<li className="has-children">
 											<Link href="#">Pages</Link>
 											<ul className="sub-menu">
-												<li><Link href="/about-us">About Us</Link></li>
-												<li><Link href="/services">Our Services</Link></li>
 												<li><Link href="/pricing">Pricing</Link></li>
-												<li><Link href="/calculator">Loan Calculator</Link></li>
+												{/* <li><Link href="/calculator">Loan Calculator</Link></li> */}
 												<li><Link href="/faqs">FAQs</Link></li>
-												<li><Link href="/term">Term</Link></li>
+												{/* <li><Link href="/term">Term</Link></li>
 												<li><Link href="/contact">Contact</Link></li>
 												<li><Link href="/login">Login</Link></li>
 												<li><Link href="/register">Register</Link></li>
-												<li><Link href="/404">Error 404</Link></li>
+												<li><Link href="/404">Error 404</Link></li> */}
 											</ul>
 										</li>
-										<li className="has-children">
+										{/* <li className="">
 											<Link href="#">News</Link>
 											<ul className="sub-menu">
 												<li><Link href="/blog-grid">News Grid</Link></li>
 												<li><Link href="/blog-list">News List</Link></li>
 												<li><Link href="/blog-details">News Details</Link></li>
 											</ul>
-										</li>
+										</li> */}
 										<li><Link href="/contact">Contact</Link></li>
 									</ul>
 								</nav>
 							</div>
 							<div className="header-right">
-								<div className="d-none d-xxl-inline-block align-middle mr-15">
+								{/* <div className="d-none d-xxl-inline-block align-middle mr-15">
 									<Link className="btn btn-signin neutral-1000" href="/login">
 										<svg className="mb-1" xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12" fill="none">
 											<path d="M1 12C1 12 0 12 0 11C0 10 1 7 6 7C11 7 12 10 12 11C12 12 11 12 11 12H1ZM6 6C6.79565 6 7.55871 5.68393 8.12132 5.12132C8.68393 4.55871 9 3.79565 9 3C9 2.20435 8.68393 1.44129 8.12132 0.87868C7.55871 0.316071 6.79565 0 6 0C5.20435 0 4.44129 0.316071 3.87868 0.87868C3.31607 1.44129 3 2.20435 3 3C3 3.79565 3.31607 4.55871 3.87868 5.12132C4.44129 5.68393 5.20435 6 6 6Z" fill="#101010" />
@@ -167,7 +167,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 										Sign in
 									</Link>
 									<Link className="btn btn-signin background-brand-2 text-dark" href="#">Add Listing</Link>
-								</div>
+								</div> */}
 								<div className="burger-icon-2 burger-icon-white" onClick={handleOffcanvas}>
 									<img src="/assets/imgs/template/icons/menu.svg" alt="Carento" />
 								</div>

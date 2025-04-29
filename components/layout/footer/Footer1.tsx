@@ -21,9 +21,9 @@ export default function Footer1() {
 							</div>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row justify-content-between">
 						<div className="col-md-3 col-sm-12 footer-1">
-							<div className="mt-20 mb-20">
+							<div className=" mb-20">
 								<Link className="d-flex" href="/">
 									<img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
 									<img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
@@ -41,31 +41,32 @@ export default function Footer1() {
 							</div>
 						</div>
 						<div className="col-md-2 col-xs-6 footer-3">
-							<h6 className="text-linear-3">Company</h6>
+							<h6 className="text-linear-3 fs-5">Quick Links</h6>
 							<ul className="menu-footer">
-								<li><Link href="#">About Us</Link></li>
-								<li><Link href="#">Our Awards</Link></li>
-								<li><Link href="#">Agencies</Link></li>
-								<li><Link href="#">Copyright Notices</Link></li>
-								<li><Link href="#">Terms of Use</Link></li>
+								<li><Link href="/">Home</Link></li>
+								<li><Link href="/about">About Us</Link></li>
+								<li><Link href="/services">Services</Link></li>
+								<li><Link href="/faqs">FAQs</Link></li>
+								<li><Link href="/contact">Contact Us</Link></li>
+								{/* <li><Link href="#">Terms of Use</Link></li>
 								<li><Link href="#">Privacy Notice</Link></li>
-								<li><Link href="#">Lost &amp; Found</Link></li>
+								<li><Link href="#">Lost &amp; Found</Link></li> */}
 							</ul>
 						</div>
 						<div className="col-md-2 col-xs-6 footer-2">
-							<h6 className="text-linear-3">Our Services</h6>
+							<h6 className="text-linear-3 fs-5">Our Services</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">Car Rental Services</Link></li>
 								<li><Link href="#">Vehicle Leasing Options</Link></li>
 								<li><Link href="#">Long-Term Car Rentals</Link></li>
 								<li><Link href="#">Car Sales and Trade-Ins</Link></li>
-								<li><Link href="#">Luxury Car Rentals</Link></li>
+								{/* <li><Link href="#">Luxury Car Rentals</Link></li>
 								<li><Link href="#">Rent-to-Own Programs</Link></li>
-								<li><Link href="#">Fleet Management Solutions</Link></li>
+								<li><Link href="#">Fleet Management Solutions</Link></li> */}
 							</ul>
 						</div>
-						<div className="col-md-2 col-xs-6 footer-4">
-							<h6 className="text-linear-3">Our Partners</h6>
+						{/* <div className="col-md-2 col-xs-6 footer-4">
+							<h6 className="text-linear-3 fs-5">Our Partners</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">Affiliates</Link></li>
 								<li><Link href="#">Travel Agents</Link></li>
@@ -75,16 +76,16 @@ export default function Footer1() {
 								<li><Link href="#">Work with us</Link></li>
 								<li><Link href="#">Advertise with us</Link></li>
 							</ul>
-						</div>
+						</div> */}
 						<div className="col-md-3 col-xs-6 footer-5">
-							<h6 className="text-linear-3">Support</h6>
+							<h6 className="text-linear-3 fs-5">Help Link</h6>
 							<ul className="menu-footer">
-								<li><Link href="#">Forum support</Link></li>
+								{/* <li><Link href="#">Forum support</Link></li>
 								<li><Link href="#">Help Center</Link></li>
-								<li><Link href="#">Live chat</Link></li>
-								<li><Link href="#">How it works</Link></li>
-								<li><Link href="#">Security</Link></li>
+								<li><Link href="#">Live chat</Link></li> */}
+								<li><Link href="#">Privacy policy</Link></li>
 								<li><Link href="#">Refund Policy</Link></li>
+								<li><Link href="#">Terms & condiction</Link></li>
 							</ul>
 						</div>
 					</div>
