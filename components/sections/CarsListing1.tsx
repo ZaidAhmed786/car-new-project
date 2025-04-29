@@ -11,6 +11,7 @@ export default function CarsListing1() {
 				<div className="container">
 					<div className="row align-items-end">
 						<div className="col-md-9 wow fadeInUp">
+						<h3 className="title-svg neutral-1000 mb-5">Our Services</h3>
 							<h3 className="title-svg neutral-1000 mb-5">Most Searched Vehicles</h3>
 							<p className="text-lg-medium text-bold neutral-500">The world's leading car brands</p>
 						</div>
@@ -36,7 +37,7 @@ export default function CarsListing1() {
 									<SwiperSlide>
 										<div className="card-journey-small background-card hover-up">
 											<div className="card-image">
-												<Link href="/cars-details-1">
+												<Link href="/contact">
 													<img src="/assets/imgs/cars-listing/cars-listing-1/car-1.png" alt="Carento" />
 												</Link>
 											</div>
@@ -48,7 +49,7 @@ export default function CarsListing1() {
 															reviews)</span></span>
 													</div>
 												</div>
-												<div className="card-title"><Link className="heading-6 neutral-1000" href="/cars-details-1">Audi A3 1.6 TDI S line</Link></div>
+												<div className="card-title"><Link className="heading-6 neutral-1000" href="/contact">Audi A3 1.6 TDI S line</Link></div>
 												<div className="card-program">
 													<div className="card-location">
 														<p className="text-location text-md-medium neutral-500">Manchester,
@@ -65,14 +66,14 @@ export default function CarsListing1() {
 															<p className="text-md-medium neutral-500 me-2">From</p>
 															<h6 className="heading-6 neutral-1000">$498.25</h6>
 														</div>
-														<div className="card-button"><Link className="btn btn-gray" href="/cars-details-1">Book Now</Link></div>
+														<div className="card-button"><Link className="btn btn-gray" href="/contact">Book Now</Link></div>
 													</div>
 												</div>
 											</div>
 										</div>
 										<div className="card-journey-small background-card hover-up">
 											<div className="card-image">
-												<Link href="/cars-details-1">
+												<Link href="/contact">
 													<img src="/assets/imgs/cars-listing/cars-listing-1/car-2.png" alt="Carento" />
 												</Link>
 											</div>
@@ -84,7 +85,7 @@ export default function CarsListing1() {
 															reviews)</span></span>
 													</div>
 												</div>
-												<div className="card-title"><Link className="heading-6 neutral-1000" href="/cars-details-1">Volvo S60 D4 R-Design</Link></div>
+												<div className="card-title"><Link className="heading-6 neutral-1000" href="/contact">Volvo S60 D4 R-Design</Link></div>
 												<div className="card-program">
 													<div className="card-location">
 														<p className="text-location text-md-medium neutral-500">New South Wales,
@@ -101,7 +102,7 @@ export default function CarsListing1() {
 															<p className="text-md-medium neutral-500 me-2">From</p>
 															<h6 className="heading-6 neutral-1000">$498.25</h6>
 														</div>
-														<div className="card-button"><Link className="btn btn-gray" href="/cars-details-1">Book Now</Link></div>
+														<div className="card-button"><Link className="btn btn-gray" href="/contact">Book Now</Link></div>
 													</div>
 												</div>
 											</div>
@@ -110,7 +111,7 @@ export default function CarsListing1() {
 									<SwiperSlide>
 										<div className="card-journey-small background-card hover-up">
 											<div className="card-image">
-												<Link href="/cars-details-1">
+												<Link href="/contact">
 													<img src="/assets/imgs/cars-listing/cars-listing-1/car-3.png" alt="Carento" />
 												</Link>
 											</div>
@@ -122,7 +123,7 @@ export default function CarsListing1() {
 															reviews)</span></span>
 													</div>
 												</div>
-												<div className="card-title"><Link className="heading-6 neutral-1000" href="/cars-details-1">Mercedes-Benz C220d</Link></div>
+												<div className="card-title"><Link className="heading-6 neutral-1000" href="/contact">Mercedes-Benz C220d</Link></div>
 												<div className="card-program">
 													<div className="card-location">
 														<p className="text-location text-md-medium neutral-500">Manchester,
@@ -139,14 +140,14 @@ export default function CarsListing1() {
 															<p className="text-md-medium neutral-500 me-2">From</p>
 															<h6 className="heading-6 neutral-1000">$498.25</h6>
 														</div>
-														<div className="card-button"><Link className="btn btn-gray" href="/cars-details-1">Book Now</Link></div>
+														<div className="card-button"><Link className="btn btn-gray" href="/contact">Book Now</Link></div>
 													</div>
 												</div>
 											</div>
 										</div>
 										<div className="card-journey-small background-card hover-up">
 											<div className="card-image">
-												<Link href="/cars-details-1">
+												<Link href="/contact">
 													<img src="/assets/imgs/cars-listing/cars-listing-1/car-4.png" alt="Carento" />
 												</Link>
 											</div>
@@ -158,7 +159,7 @@ export default function CarsListing1() {
 															reviews)</span></span>
 													</div>
 												</div>
-												<div className="card-title"><Link className="heading-6 neutral-1000" href="/cars-details-1">Jaguar XE 2.0d R-Sport</Link></div>
+												<div className="card-title"><Link className="heading-6 neutral-1000" href="/contact">Jaguar XE 2.0d R-Sport</Link></div>
 												<div className="card-program">
 													<div className="card-location">
 														<p className="text-location text-md-medium neutral-500">Manchester,
@@ -175,7 +176,7 @@ export default function CarsListing1() {
 															<p className="text-md-medium neutral-500 me-2">From</p>
 															<h6 className="heading-6 neutral-1000">$498.25</h6>
 														</div>
-														<div className="card-button"><Link className="btn btn-gray" href="/cars-details-1">Book Now</Link></div>
+														<div className="card-button"><Link className="btn btn-gray" href="/contact">Book Now</Link></div>
 													</div>
 												</div>
 											</div>
@@ -184,7 +185,7 @@ export default function CarsListing1() {
 									<SwiperSlide>
 										<div className="card-journey-small background-card hover-up">
 											<div className="card-image">
-												<Link href="/cars-details-1">
+												<Link href="/contact">
 													<img src="/assets/imgs/cars-listing/cars-listing-1/car-5.png" alt="Carento" />
 												</Link>
 											</div>
@@ -196,7 +197,7 @@ export default function CarsListing1() {
 															reviews)</span></span>
 													</div>
 												</div>
-												<div className="card-title"><Link className="heading-6 neutral-1000 text-nowrap" href="/cars-details-1">Volkswagen Golf GTD 2.0 TDI</Link></div>
+												<div className="card-title"><Link className="heading-6 neutral-1000 text-nowrap" href="/contact">Volkswagen Golf GTD 2.0 TDI</Link></div>
 												<div className="card-program">
 													<div className="card-location">
 														<p className="text-location text-md-medium neutral-500">Manchester,
@@ -213,14 +214,14 @@ export default function CarsListing1() {
 															<p className="text-md-medium neutral-500 me-2">From</p>
 															<h6 className="heading-6 neutral-1000">$498.25</h6>
 														</div>
-														<div className="card-button"><Link className="btn btn-gray" href="/cars-details-1">Book Now</Link></div>
+														<div className="card-button"><Link className="btn btn-gray" href="/contact">Book Now</Link></div>
 													</div>
 												</div>
 											</div>
 										</div>
 										<div className="card-journey-small background-card hover-up">
 											<div className="card-image">
-												<Link href="/cars-details-1">
+												<Link href="/contact">
 													<img src="/assets/imgs/cars-listing/cars-listing-1/car-6.png" alt="Carento" />
 												</Link>
 											</div>
@@ -232,7 +233,7 @@ export default function CarsListing1() {
 															reviews)</span></span>
 													</div>
 												</div>
-												<div className="card-title"><Link className="heading-6 neutral-1000" href="/cars-details-1">Lexus IS 300h F Sport</Link></div>
+												<div className="card-title"><Link className="heading-6 neutral-1000" href="/contact">Lexus IS 300h F Sport</Link></div>
 												<div className="card-program">
 													<div className="card-location">
 														<p className="text-location text-md-medium neutral-500">Manchester,
@@ -249,7 +250,7 @@ export default function CarsListing1() {
 															<p className="text-md-medium neutral-500 me-2">From</p>
 															<h6 className="heading-6 neutral-1000">$498.25</h6>
 														</div>
-														<div className="card-button"><Link className="btn btn-gray" href="/cars-details-1">Book Now</Link></div>
+														<div className="card-button"><Link className="btn btn-gray" href="/contact">Book Now</Link></div>
 													</div>
 												</div>
 											</div>
@@ -259,7 +260,7 @@ export default function CarsListing1() {
 							</Swiper>
 						</div>
 					</div>
-					<div className="d-flex justify-content-center">
+					{/* <div className="d-flex justify-content-center">
 						<Link className="btn btn-brand-2 text-nowrap wow fadeInUp" href="/cars-list-1">
 							<svg className="me-2" xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 								<g clipPath="url(#clip0_117_4717)">
@@ -274,7 +275,7 @@ export default function CarsListing1() {
 							</svg>
 							Load More Cars
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</section>
 		</>

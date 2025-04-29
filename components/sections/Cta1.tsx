@@ -13,7 +13,7 @@ export default function Cta1() {
 					<div className="row align-items-center">
 						<div className="col-lg-6 pe-lg-5 wow fadeInUp">
 							<div className="card-video">
-								<div className="card-image"><a className="btn btn-play popup-youtube" onClick={() => setOpen(true)} /><img src="/assets/imgs/cta/cta-1/video.png" alt="Carento" /></div>
+								<div className="card-image"><img style={{height:"50vh"}} src="/assets/imgs/cta/cta-3/img-2.png" alt="Carento" /></div>
 							</div>
 						</div>
 						<div className="col-lg-6 mt-lg-0 mt-4">
