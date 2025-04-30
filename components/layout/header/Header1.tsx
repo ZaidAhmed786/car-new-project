@@ -81,21 +81,21 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 										<li className=" arrow-white">
 											<Link className="color-white" href="/">Home</Link>
 										</li>
-										<li className="mega-li-smallarrow-white">
-										<li><Link href="/about-us">About Us</Link></li>
+										<li className="mega-li-small arrow-white">
+										<Link className="color-white" href="/about-us">About Us</Link>
 										</li>
-										<li className="has-children arrow-white">
-										<li><Link href="/services">Services</Link></li>
-										</li>
-										
-										<li className="has-children arrow-white">
-											<Link className="color-white" href="#">Pages</Link>
-											<ul className="sub-menu">
-												<li><Link href="/pricing">Pricing</Link></li>												
-												<li><Link href="/faqs">FAQs</Link></li>												
-											</ul>
+										<li className=" arrow-white ">
+										<Link className="color-white" href="/services">Services</Link>
 										</li>
 										
+										<li className=" arrow-white">
+												<Link className="color-white" href="/pricing">Pricing</Link>											
+																									
+										</li>
+										<li className=" arrow-white">
+																							
+												<Link className="color-white" href="/faqs">FAQs</Link>													
+										</li>
 										<li><Link className="color-white" href="/contact">Contact</Link></li>
 									</ul>
 								</nav>

@@ -80,80 +80,27 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 									<ul className="main-menu">
 										<li className="">
 											<Link href="/">Home</Link>
-											{/* <ul className="sub-menu">
-												<li><Link href="/">Home page v1</Link></li>
-												<li><Link href="/index-2">Home page v2</Link></li>
-												<li><Link href="/index-3">Home page v3</Link></li>
-											</ul> */}
+									
 										</li>
 										<li className="mega-li-small ">
 										<li><Link href="/about-us">About Us</Link></li>
 
-											{/* <div className="mega-menu">
-												<div className="mega-menu-inner mega-menu-inner-small">
-													<div className="row">
-														<div className="col-lg-6">
-															<h6 className="text-lg-bold neutral-1000">Cars List</h6>
-															<ul className="sub-menu">
-																<li><Link href="/cars-list-1">Cars List v1</Link></li>
-																<li><Link href="/cars-list-2">Cars List v2</Link></li>
-																<li><Link href="/cars-list-3">Cars List v3</Link></li>
-																<li><Link href="/cars-list-4">Cars List v4</Link></li>
-															</ul>
-														</div>
-														<div className="col-lg-6">
-															<h6 className="text-lg-bold neutral-1000">Car Details</h6>
-															<ul className="sub-menu">
-																<li><Link href="/cars-details-1">Car Details v1</Link></li>
-																<li><Link href="/cars-details-2">Car Details v2</Link></li>
-																<li><Link href="/cars-details-3">Car Details v3</Link></li>
-																<li><Link href="/cars-details-4">Car Details v4</Link></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div> */}
+											
 										</li>
 										<li className="mega-li-small ">
 										<li><Link href="/services">Our Services</Link></li>
+										</li>
 
-											{/* <div className="mega-menu">
-												<div className="mega-menu-inner mega-menu-inner-small mega-menu-inner-destinations">
-													<ul className="sub-menu">
-														<li><Link href="/dealer-listing">Dealers Listing</Link></li>
-														<li><Link href="/dealer-details">Dealer Details</Link></li>
-													</ul>
-												</div>
-											</div> */}
+										<li className="mega-li-small ">
+										<li><Link href="/pricing">Pricing</Link></li>
 										</li>
-										{/* <li className="">
-											<Link href="#">Shop</Link>
-											<ul className="sub-menu">
-												<li><Link href="/shop-list">Shop Grid</Link></li>
-												<li><Link href="/shop-details">Product Details</Link></li>
-											</ul>
-										</li> */}
-										<li className="has-children">
-											<Link href="#">Pages</Link>
-											<ul className="sub-menu">
-												<li><Link href="/pricing">Pricing</Link></li>
-												{/* <li><Link href="/calculator">Loan Calculator</Link></li> */}
-												<li><Link href="/faqs">FAQs</Link></li>
-												{/* <li><Link href="/term">Term</Link></li>
-												<li><Link href="/contact">Contact</Link></li>
-												<li><Link href="/login">Login</Link></li>
-												<li><Link href="/register">Register</Link></li>
-												<li><Link href="/404">Error 404</Link></li> */}
-											</ul>
+
+										<li className="mega-li-small ">
+										<li><Link href="/faqs">FAQs</Link></li>
 										</li>
-										{/* <li className="">
-											<Link href="#">News</Link>
-											<ul className="sub-menu">
-												<li><Link href="/blog-grid">News Grid</Link></li>
-												<li><Link href="/blog-list">News List</Link></li>
-												<li><Link href="/blog-details">News Details</Link></li>
-											</ul>
-										</li> */}
+									
+									
+										
 										<li><Link href="/contact">Contact</Link></li>
 									</ul>
 								</nav>

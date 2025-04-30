@@ -48,23 +48,17 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 											</ul>
 										</li> */}
 										<li className={`has-children ${isAccordion === 5 ? "active" : ""}`}>
-											<span className="menu-expand" onClick={() => handleAccordion(5)}>
-												<i className="arrow-small-down"></i>
-											</span>
-											<Link href="#">Pages</Link>
-											<ul className="sub-menu" style={{ display: `${isAccordion == 5 ? "block" : "none"}` }}>
-												{/* <li><Link href="/about-us">About Us</Link></li>
-												<li><Link href="/services">Our Services</Link></li> */}
-												<li><Link href="/pricing">Pricing</Link></li>
-												{/* <li><Link href="/calculator">Loan Calculator</Link></li> */}
-												<li><Link href="/faqs">FAQs</Link></li>
-												{/* <li><Link href="/term">Term</Link></li>
-												<li><Link href="/contact">Contact</Link></li>
-												<li><Link href="/login">Login</Link></li>
-												<li><Link href="/register">Register</Link></li>
-												<li><Link href="/404">Error 404</Link></li> */}
-											</ul>
+											
+											<Link href="/pricing">Pricing</Link>
+										
 										</li>
+										<li className={`has-children ${isAccordion === 3 ? "active" : ""}`}>
+											
+										<Link href="/faqs">FAQs</Link>
+											
+										</li>
+										
+
 										{/* <li className={`has-children ${isAccordion === 6 ? "active" : ""}`}>
 											<span className="menu-expand" onClick={() => handleAccordion(6)}>
 												<i className="arrow-small-down"></i>
